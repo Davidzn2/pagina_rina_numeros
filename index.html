@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+
+<script src="https://code.jquery.com/jquery-3.1.0.min.js" ></script>
+
+<!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+	<link rel="stylesheet" href="style.css">
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $('.carousel').carousel();
+    });
+    
+   </script>
+	<script src="index.js"></script>
+
+</head>
+
+<body>
+
+<h1> Aprendamos a contar en ingles...</h1>
+<p> Haz click en el numero para aprender a decirlo en ENGLISH</p>
+ <div class="carousel">
+    <a class="carousel-item" href="#one!" onclick="document.getElementById('numbers1').play()"><img src="http://tienda.nuryana.com/wp-content/uploads/sites/2/2015/06/1.jpg"></a>
+    <a class="carousel-item" href="#two!" onclick="document.getElementById('numbers2').play()"><img src="http://www.clipartbest.com/cliparts/7Ta/o5b/7Tao5br7c.jpeg"></a>
+    <a class="carousel-item" href="#three!"onclick="document.getElementById('numbers3').play()"><img src="http://static1.squarespace.com/static/531fe909e4b094aec25519fb/5684ce6105f8e2c7f89ff45f/5684cec52399a3371e6e0c49/1451544325359/Tri.jpg"></a>
+    <a class="carousel-item" href="#four!"onclick="document.getElementById('numbers4').play()"><img src="http://static.wixstatic.com/media/a44ed3_e68db2341fa0427097327d69251bfedb.jpg"></a>
+    <a class="carousel-item" href="#five!"onclick="document.getElementById('numbers5').play()"><img src="http://tienda.nuryana.com/wp-content/uploads/sites/2/2015/06/51.jpg"></a>
+  </div>
+  
+<audio id="numbers1" >
+	<source src="audios/1.mp3" type="audio/mpeg">
+</audio>
+<audio id="numbers2" >
+	<source src="audios/2.mp3" type="audio/mpeg">
+</audio>
+<audio id="numbers3" >
+	<source src="audios/3.mp3" type="audio/mpeg">
+</audio>
+<audio id="numbers4" >
+	<source src="audios/4.mp3" type="audio/mpeg">
+</audio>
+<audio id="numbers5" >
+	<source src="audios/5.mp3" type="audio/mpeg">
+</audio>
+
+<center>
+<p>Created with love by Rina Chicurel (no people or animals were harmed in the making (except for the annoyance of David Zonana))</p></center>	
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@import 'https://fonts.googleapis.com/css?family=Original+Surfer';
+
+body{
+	background-image:url(fondo.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;}
+h1{
+	padding:0 270px;
+	font-family:'Original Surfer', cursive;
+	font-size:45px;
+	color:#E70A85;
+	}
+	
+p {
+	padding:0 300px;
+	font-family:'Original Surfer', cursive;
+	font-size:22px;
+	color:#F449A7;
+	}
